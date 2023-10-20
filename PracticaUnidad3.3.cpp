@@ -9,7 +9,6 @@ Sprite sprite;
 
 int main() {
 
-
 	sf::RenderWindow App(sf::VideoMode(800, 600, 32), "Fondo");
 	
 	texture.loadFromFile("Unidad3_Assets/fondo.jpg");
