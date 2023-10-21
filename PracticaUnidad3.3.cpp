@@ -14,10 +14,12 @@ int main() {
 	texture.loadFromFile("Unidad3_Assets/fondo.jpg");
 	sprite.setTexture(texture);
 	
-	float sizeTx = texture.getSize().x;
-	float sizeTy = texture.getSize().y;
+	float sizeTx = (float)texture.getSize().x;
+	float sizeTy = (float)texture.getSize().y;
 
+	//Representar imagen como fondo
 	sprite.setScale(800.0f/sizeTx, 600.0f/sizeTy);
+
 	while (App.isOpen())
 	{
 		sf::Event event;
